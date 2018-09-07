@@ -1,0 +1,166 @@
+{
+    "kontoret": {
+        "ascii": [
+            "kontoret_1",
+            "kontoret_4",
+            "kontoret_2",
+            "kontoret_3"
+        ],
+        "beskrivning": [
+            "Du befinner dig på kontoret, men det är bara ett litet rum med ett proppskåp fastsittandes på väggen. Luckan är fastlåst med ett rostigt gammalt hänglås.",
+            "Luckan är öppnad och spaken är flyttad, elen i huset är påslagen!.",
+            "Låset är bortsparkad, nu återstår bara proppskåpet i rummet.",
+            "Proppskåpet är öppnat, ser inte mer än en spak som står på OFF"
+        ],
+        "ledtråd": [
+            "En röst säger>> Vi måste komma in i skåpet.!.",
+            "En röst säger>> Låset ser rostigt ut!.",
+            "En röst säger>> Kanske kan vi sparka upp låset!."
+        ],
+        "lås_öppnad": 1,
+        "name": "kontoret",
+        "objekt": [
+            "skåp",
+            "lås"
+        ],
+        "se": [
+            "En röst säger>> Finns ett proppskåp på väggen, men den är låst med ett hänglås!.",
+            "En röst säger>> Ett öppet proppskåp med spaken pekandes mot norr!."
+        ],
+        "skåp_öppnad": 1,
+        "spak_on": 1,
+        "state": 1,
+        "väst": "vardagsrummet"
+    },
+    "köket": {
+        "ascii": [
+            "köket_1",
+            "köket_2"
+        ],
+        "beskrivning": [
+            "Du befinner dig i köket, ett riktigt hemtrevligt kök. Det är en brasa som brinner intensivt och ett bord med ett kärl fullt av vatten!.",
+            "Du befinner dig i köket, det luktar rök, brasan är släkt och kärlet ligger på golvet bredvid!."
+        ],
+        "brasa_aktiv": 1,
+        "kärl_beskrivning": "En röst säger>> Ett kärl gjort utav lera, den är helt full av vatten!.",
+        "kärl_flyttad": 0,
+        "kärl_sparkad": 0,
+        "kärl_öppnad": 0,
+        "ledtråd": [
+            "En röst säger>> Det brinner alldeles för mycket i eldstaden!.",
+            "En röst säger>> Det står ett kärl på bordet!, kanske testa att flytta på den!."
+        ],
+        "name": "köket",
+        "objekt": [
+            "kärl",
+            "brasa"
+        ],
+        "se": [
+            "En röst säger>> Ser en brasa som brinner livligt och ett kärl fylld med vatten.",
+            "En röst säger>> Brasan brinner inte längre, och kärlet ligger på golvet utan vatten i."
+        ],
+        "state": 0,
+        "syd": "vardagsrummet"
+    },
+    "sovrummet": {
+        "ascii": [
+            "sovrummet_1",
+            "sovrummet_2",
+            "sovrummet_3"
+        ],
+        "beskrivning": [
+            "Du befinner dig i sovrummet, men det verkar vara en stor spelplan med tictactoe!.",
+            "Du befinner dig i sovrumet, men finns inget att se, rummet är helt tomt!."
+        ],
+        "ledtråd": [
+            "En röst säger>> Testa plocka upp tictactoe till ditt inventory!.",
+            "En röst säger>> Med tictactoe i ditt inventory, testa använda det!."
+        ],
+        "name": "sovrummet",
+        "objekt": [
+            "tictactoe"
+        ],
+        "se": [
+            "En röst säger>> Verkar som en stor spelplan av tictactoe är uppritad på golvet!.",
+            "En röst säger>> Jag ser en nyckel, men det gör visst inte du!."
+        ],
+        "state": 0,
+        "öst": "vardagsrummet"
+    },
+    "toaletten": {
+        "ascii": [
+            "balkongen_intro",
+            "balkongen_outro"
+        ],
+        "beskrivning": [
+            "Du befinner dig syd om vardagsrummet, närmare bestämt på toaletten. Det ligger en stor boll på golvet och det finns en vit toalett!.",
+            "Du har klarat detta rum finns inte så mycket att se här mer, ser lite konstigt ut med en stor boll fast i toaletten!."
+        ],
+        "boll_flyttad": 0,
+        "boll_sparkad": 1,
+        "boll_öppnad": 0,
+        "ledtråd": [
+            "En röst säger>> Du borde testa öppna toalettlocket!.",
+            "En röst säger>> Du borde testa sparka på den stora bollen, kanske öppna toalettlocket först!."
+        ],
+        "name": "toaletten",
+        "norr": "vardagsrummet",
+        "objekt": [
+            "toalett",
+            "boll"
+        ],
+        "objekt_boll": "En röst säger>> En stor boll kan vara orginal bollen från vm i mega boll!.",
+        "se": [
+            "En röst säger>> En fotboll och en toalett med locket nedfällt",
+            "En röst säger>> Ja, vad ska man säga, ser lite konstigt ut med en stor boll fast i toaletten!."
+        ],
+        "state": 0,
+        "toalett_beskrivning": "En röst säger>> Ser ut att vara en helt vanlig vit toalett, locket är nedfällt!.",
+        "toalett_flyttad": 0,
+        "toalett_sparkad": 0,
+        "toalett_öppnad": 0
+    },
+    "vardagsrummet": {
+        "ascii": [
+            "vardagsrummet_1",
+            "vardagsrummet_2",
+            "vardagsrummet_3",
+            "vardagsrummet_4",
+            "vardagsrummet_5",
+            "vardagsrummet_6"
+        ],
+        "beskrivning": [
+            "Vardagsrummet: Det är helt tomt, bara en soffa står här, vilken inte verkar ha någon användning. Det finns fyra dörrar [norr][öst][syd] och [väst]",
+            "Vardagsrummet: Känns som att rummet lever, något påverkar defenitivt rummet. Men fortfarande inget att se förutom soffan och dörrarna.",
+            "Vardagsrummet: Fortfarande inget att se men det knakar i väggar och golv.",
+            "Vardagsrummet: Det finns en tv i rummet nu av märket ssnugma, något pågår defentitivt här.",
+            "Vardagsrummet: Bredvid soffan finns nu en kista, blir mer och mer hemtrevligt här.",
+            "Vardagsrummet: TV:N ÄR IGÅNG!"
+        ],
+        "kista_öppnad": 0,
+        "ledtråd": [
+            "En röst säger>> Du kan ju alltid utforska omgivningarna [syd][norr][öst][väst]"
+        ],
+        "ledtråd_3": [
+            "En röst säger>> Tror du har ett rum till att avklara.",
+            "En röst säger>> Tv:n går inte att göra något med."
+        ],
+        "ledtråd_4": [
+            "En röst säger>> Du kanske måste ha nyckeln för att öppna kistan.",
+            "En röst säger>> Testa använda fjärrkontrollen!."
+        ],
+        "name": "vardagsrummet",
+        "norr": "köket",
+        "objekt": [],
+        "objekt_tv": [
+            "En helt vanlig tv"
+        ],
+        "se": [
+            "En röst säger>> Det finns inte mycket att se i vardagsrummet, verkar som någon slags magi verkar på rummet!."
+        ],
+        "state": 0,
+        "syd": "toaletten",
+        "väst": "sovrummet",
+        "öst": "kontoret"
+    }
+}
